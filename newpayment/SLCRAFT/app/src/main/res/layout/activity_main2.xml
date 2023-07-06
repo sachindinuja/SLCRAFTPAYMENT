@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wave_background"
+    android:backgroundTint="#C6DCEF"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/Texp2"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:text="Conformation Details"
+        android:textColor="#050505"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Uinput1p2"
+        android:layout_width="262dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Card holder name"
+        android:inputType="textPersonName"
+        android:textColor="#0B0A0A"
+        android:textColorHint="#0B0A0A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Texp2" />
+
+    <EditText
+        android:id="@+id/Uinput2p2"
+        android:layout_width="262dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:textColor="#0B0A0A"
+        android:textColorHint="#0B0A0A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Uinput1p2" />
+
+    <EditText
+        android:id="@+id/Uinput3p2"
+        android:layout_width="262dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="E-mail Address"
+        android:inputType="textEmailAddress"
+        android:textColor="#0B0A0A"
+        android:textColorHint="#0B0A0A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Uinput2p2" />
+
+    <Button
+        android:id="@+id/Bt2p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#1E88E5"
+        android:text="Edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Uinput1p2"
+        app:layout_constraintTop_toBottomOf="@+id/Texp2" />
+
+    <Button
+        android:id="@+id/Bt3p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#1E88E5"
+        android:text="Edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Uinput2p2"
+        app:layout_constraintTop_toBottomOf="@+id/Uinput1p2" />
+
+    <Button
+        android:id="@+id/Bt4p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#1E88E5"
+        android:text="Edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Uinput3p2"
+        app:layout_constraintTop_toBottomOf="@+id/Uinput2p2" />
+
+    <Button
+        android:id="@+id/Bt5p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="54dp"
+        android:backgroundTint="#F14444"
+        android:text="DELETE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Uinput4p2" />
+
+    <EditText
+        android:id="@+id/Uinput4p2"
+        android:layout_width="262dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="text"
+        android:textColorHint="#0B0A0A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Uinput3p2" />
+
+    <Button
+        android:id="@+id/New1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#1E88E5"
+        android:text="Edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Uinput4p2"
+        app:layout_constraintTop_toBottomOf="@+id/Uinput3p2" />
+
+    <Button
+        android:id="@+id/Bt6p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#43A047"
+        android:text="CONFIRM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Uinput4p2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

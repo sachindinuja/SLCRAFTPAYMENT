@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "12088886207",
+    "project_id": "slcraft-add38",
+    "storage_bucket": "slcraft-add38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12088886207:android:50cb7cff528c4bf86c970a",
+        "android_client_info": {
+          "package_name": "com.example.slcraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12088886207-o0dnltaq0pvt3m030g5r038t32pnfnrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAowwbdlRGl4mPVbFHwtCaQ8iQTPekuAcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12088886207-o0dnltaq0pvt3m030g5r038t32pnfnrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

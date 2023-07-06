@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Texw1">304dp</dimen>
+    <dimen name="Texh1">52dp</dimen>
+    <dimen name="Txtw2">146dp</dimen>
+    <dimen name="TxtH2">36dp</dimen>
+    <dimen name="Uinput1W">350dp</dimen>
+    <dimen name="UinputH1">60dp</dimen>
+    <dimen name="Uinput2W">350dp</dimen>
+    <dimen name="Uinput2H">60dp</dimen>
+    <dimen name="Uinput3W">350dp</dimen>
+    <dimen name="Uinput3H">60dp</dimen>
+    <dimen name="Uinput4W">350dp</dimen>
+    <dimen name="Uinput4H">60dp</dimen>
+</resources>

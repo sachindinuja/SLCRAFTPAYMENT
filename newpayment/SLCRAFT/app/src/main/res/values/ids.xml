@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <item name="radio_group" type="id">radio_groupPay</item>-->
+    <item name="verifyOTPBtn" type="id" />
+    <item name="resendTextView" type="id" />
+    <item name="guideline5" type="id" />
+    <item name="otpEditText1" type="id" />
+</resources>
